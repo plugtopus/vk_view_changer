@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script type="text/javascript" src="../core/lib.js"></script>
+        <script src="../core/settings.js"></script>
+    </head>
+    <body class="body">
+        <div class="picker" id="primary_block" >
+            <div id="line" class="picker__line">
+                <div id="arrows" class="picker__arrows">
+                    <div class="left_arrow arrow arrow-left"></div>
+                    <div class="right_arrow arrow arrow-right"></div>
+                </div>
+            </div>
+            <div id="block_picker" class="picker__block"></div>
+            <input type="hidden" class="options__input" id="hue-deg" />
+        </div>
+        <hr>
+        <div class="options">
+            <div class="options__block">
+                <label class="input">Фон (вставьте ссылку на картинку и нажмите Enter):<br><br>
+                    <input
+                            type="text"
+                            class="options__input"
+                            alt="Нажмите Enter для подтверждения"
+                            title="Нажмите Enter для подтверждения"
+                            id="background-image"
+                            name="background-image"
+                    />
+                </label>
+            </div>
+            <hr>
+            <div class="options__block">
+                <p>Стиль меню:</p>
+                <input type="checkbox" id="sepia" name="sepia" class="options__checkbox" />
+                <label for="sepia">Сепия</label><br>
+                <input type="checkbox" id="gray" name="gray" class="options__checkbox" />
+                <label for="gray">Чёрно-белый</label><br>
+                <input type="checkbox" id="invert" name="invert" class="options__checkbox" />
+                <label for="invert">Негатив</label>
+            </div>
+            <hr>
+            <div class="options__block">
+                <input type="checkbox" id="disable" name="disable" class="options__checkbox" />
+                <label for="disable">Отключить все эффекты</label>
+            </div>
+        </div>
+        <script type="text/javascript" src="../core/picker.js"></script>
+    </body>
+</html>
