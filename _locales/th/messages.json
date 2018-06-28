@@ -1,0 +1,14 @@
+﻿{
+   "desc": {
+      "message": "This extension allows you to change the color of the VKontakte interface, just move the slider. Any picture can be set as background in VKontakte."
+   },
+   "name": {
+      "message": "Change background and color Vkontakte"
+   },
+   "shortname": {
+      "message": "Change background and color Vkontakte"
+   },
+   "title": {
+      "message": "Change background and color Vkontakte"
+   }
+}
